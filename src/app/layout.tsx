@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/nav";
@@ -58,6 +59,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <Analytics />
+        <GoogleAnalytics gaId={site.googleAnalyticsId} />
       </body>
     </html>
   );

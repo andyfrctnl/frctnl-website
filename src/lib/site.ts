@@ -5,6 +5,7 @@ export const site = {
     "FRCTNL is a full-service marketing agency in El Paso, TX, building brands, sites, and campaigns for companies ready to complete the picture.",
   url: "https://www.frctnlusa.com",
   email: "info@frctnlusa.com",
+  googleAnalyticsId: "G-1VG0D786FL",
   address: {
     line1: "5115 Montana Ave",
     line2: "El Paso, TX 79903",
