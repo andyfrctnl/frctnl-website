@@ -6,6 +6,7 @@ const HUBSPOT_API = "https://api.hubapi.com";
 async function syncToHubSpot({
   name,
   email,
+  phone,
   company,
   service,
   budget,
@@ -13,6 +14,7 @@ async function syncToHubSpot({
 }: {
   name: string;
   email: string;
+  phone?: string;
   company?: string;
   service?: string;
   budget?: string;
@@ -33,6 +35,7 @@ async function syncToHubSpot({
     email,
     firstname,
     ...(lastname && { lastname }),
+    ...(phone && { phone }),
     ...(company && { company }),
   };
 
@@ -111,10 +114,8 @@ async function syncToHubSpot({
 
 export async function POST(request: Request) {
   const body = await request.json();
-  const { name, email, company, service, budget, message } = body as Record<
-    string,
-    string
-  >;
+  const { name, email, phone, company, service, budget, message } =
+    body as Record<string, string>;
 
   if (!name || !email || !message) {
     return Response.json(
@@ -137,6 +138,7 @@ export async function POST(request: Request) {
   const lines = [
     `Name: ${name}`,
     `Email: ${email}`,
+    phone && `Phone: ${phone}`,
     company && `Company: ${company}`,
     service && `Service: ${service}`,
     budget && `Budget: ${budget}`,
@@ -163,7 +165,15 @@ export async function POST(request: Request) {
   // Best-effort CRM sync — a HubSpot hiccup shouldn't fail the whole
   // submission when the email already went out successfully.
   try {
-    await syncToHubSpot({ name, email, company, service, budget, message });
+    await syncToHubSpot({
+      name,
+      email,
+      phone,
+      company,
+      service,
+      budget,
+      message,
+    });
   } catch (hubspotError) {
     console.error("HubSpot sync error:", hubspotError);
   }
