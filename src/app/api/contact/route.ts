@@ -117,9 +117,9 @@ export async function POST(request: Request) {
   const { name, email, phone, company, service, budget, message } =
     body as Record<string, string>;
 
-  if (!name || !email || !message) {
+  if (!name || !email || !phone || !message) {
     return Response.json(
-      { error: "Name, email, and message are required." },
+      { error: "Name, email, phone, and message are required." },
       { status: 400 }
     );
   }

@@ -49,7 +49,7 @@ export function ContactForm() {
       <form onSubmit={handleSubmit} className="grid gap-6 sm:grid-cols-2">
         <Field label="Name" name="name" required />
         <Field label="Email" name="email" type="email" required />
-        <Field label="Phone" name="phone" type="tel" />
+        <Field label="Phone" name="phone" type="tel" required />
         <Field label="Company" name="company" />
 
         <label className="flex flex-col gap-2">
