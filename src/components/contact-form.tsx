@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { services, site } from "@/lib/site";
 
-const budgets = ["Under $3k", "$3k–$6k", "$6k–$8k", "$8k+"];
+const budgets = ["Under $1k", "$1k–$3k", "$3k–$6k", "$6k+"];
 
 export function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
