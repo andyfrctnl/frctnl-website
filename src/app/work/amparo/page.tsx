@@ -162,7 +162,7 @@ export default function AmparoCaseStudyPage() {
             Business tips and roofing tips, both covered.
           </h2>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-2">
+          <div className="mt-12 grid gap-5 sm:grid-cols-3">
             {videos.map((video) => (
               <div key={video.src}>
                 <div className="notch relative aspect-[9/16] w-full overflow-hidden border border-forest-line">
