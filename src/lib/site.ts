@@ -201,4 +201,14 @@ export const caseStudies: CaseStudy[] = [
     image: "/work/el-contador-del-sombrero/logo-card.jpg",
     href: "/work/el-contador-del-sombrero",
   },
+  {
+    slug: "amparo",
+    client: "Amparo Sancen",
+    category: "Content Creation + Social Media",
+    summary:
+      "Roofing contractor and entrepreneur with 18 years in the industry. FRCTNL runs content and social media across two brands — Amparo Negocios for business owners and Amparo en Roofing for contractors — on Instagram, Facebook, YouTube, TikTok, and LinkedIn.",
+    result: "Two brands, five platforms, one content engine",
+    image: "/work/amparo/hero.jpg",
+    href: "/work/amparo",
+  },
 ];
