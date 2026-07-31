@@ -26,9 +26,9 @@ const scopeItems = [
       "The black-and-white cowboy mark and signature hat, kept consistent everywhere from social profiles to seminar decks.",
   },
   {
-    name: "Brand Protection",
+    name: "Event Registration",
     description:
-      "Ongoing audience education to protect the verified @elcontadordelsombrero presence from copycat accounts.",
+      "Sign-up and check-in handled for tax strategy seminars as Marcos tours cities across the country.",
   },
 ];
 
