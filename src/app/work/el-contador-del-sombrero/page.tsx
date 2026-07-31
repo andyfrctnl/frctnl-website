@@ -133,18 +133,15 @@ export default function ElContadorDelSombreroCaseStudyPage() {
       <section className="bg-paper py-20 sm:py-28">
         <div className="container-page grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:items-center">
           <Reveal>
-            <Eyebrow tone="light">Straight from the source</Eyebrow>
+            <Eyebrow tone="light">The mission</Eyebrow>
             <h2 className="font-display text-balance mt-3 text-4xl leading-[0.95] text-on-light sm:text-5xl">
               Impuestos, con confianza.
             </h2>
             <p className="mt-6 max-w-md text-base leading-relaxed text-on-light-muted">
-              &ldquo;Ya sea que seas dueño de un negocio, inversionista de
-              bienes raíces o emprendedor, El Contador del Sombrero está aquí
-              para ayudarte a navegar por el complejo mundo de los impuestos
-              con confianza.&rdquo;
-            </p>
-            <p className="mt-4 text-sm font-semibold text-forest">
-              Marcos Ramírez · CEO, El Contador del Sombrero
+              Ya sea que seas dueño de un negocio, inversionista de bienes
+              raíces o emprendedor, El Contador del Sombrero está aquí para
+              ayudarte a navegar por el complejo mundo de los impuestos con
+              confianza.
             </p>
           </Reveal>
 
