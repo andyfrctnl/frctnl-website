@@ -101,7 +101,7 @@ export default function AmparoCaseStudyPage() {
           <div className="notch relative aspect-[3/2] overflow-hidden border border-forest-line">
             <Image
               src="/work/amparo/hero.jpg"
-              alt="Amparo Sancen speaking on stage"
+              alt="Amparo Sancen studio portrait"
               fill
               priority
               sizes="(min-width: 1024px) 40vw, 100vw"

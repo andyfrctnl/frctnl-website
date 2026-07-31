@@ -208,7 +208,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Roofing contractor and entrepreneur with 18 years in the industry. FRCTNL runs content and social media across two brands — Amparo Negocios for business owners and Amparo en Roofing for contractors — on Instagram, Facebook, YouTube, TikTok, and LinkedIn.",
     result: "Two brands, five platforms, one content engine",
-    image: "/work/amparo/hero.jpg",
+    image: "/work/amparo/headshot-card.jpg",
     href: "/work/amparo",
   },
 ];
