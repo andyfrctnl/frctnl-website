@@ -69,6 +69,11 @@ const videos = [
     poster: "/work/amparo/video/delegar-es-clave-poster.jpg",
     title: "Delegar es Clave: Domina tu Negocio y Gana Tiempo",
   },
+  {
+    src: "/work/amparo/video/no-cobres-el-deducible.mp4",
+    poster: "/work/amparo/video/no-cobres-el-deducible-poster.jpg",
+    title: "No Cobres el Deducible: ¡Error Fatal para tu Empresa!",
+  },
 ];
 
 export default function AmparoCaseStudyPage() {
