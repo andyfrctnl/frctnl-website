@@ -6,6 +6,11 @@ import { Reveal, StaggerGroup, StaggerItem } from "@/components/reveal";
 import { ButtonLink, SectionHeading } from "@/components/ui";
 import { caseStudies, process, services, testimonial } from "@/lib/site";
 
+const featuredSlugs = ["cfc", "el-contador-del-sombrero", "amparo"];
+const featuredCaseStudies = caseStudies.filter((project) =>
+  featuredSlugs.includes(project.slug)
+);
+
 export default function Home() {
   return (
     <>
@@ -114,7 +119,7 @@ export default function Home() {
           </div>
 
           <StaggerGroup className="mt-14 grid gap-6 lg:grid-cols-3">
-            {caseStudies.map((project) => (
+            {featuredCaseStudies.map((project) => (
               <StaggerItem key={project.slug}>
                 <CaseStudyCard project={project} />
               </StaggerItem>
