@@ -130,38 +130,7 @@ export default function ElContadorDelSombreroCaseStudyPage() {
         </div>
       </section>
 
-      <section className="bg-paper py-20 sm:py-28">
-        <div className="container-page grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:items-center">
-          <Reveal>
-            <Eyebrow tone="light">The mission</Eyebrow>
-            <h2 className="font-display text-balance mt-3 text-4xl leading-[0.95] text-on-light sm:text-5xl">
-              Impuestos, con confianza.
-            </h2>
-            <p className="mt-6 max-w-md text-base leading-relaxed text-on-light-muted">
-              Ya sea que seas dueño de un negocio, inversionista de bienes
-              raíces o emprendedor, El Contador del Sombrero está aquí para
-              ayudarte a navegar por el complejo mundo de los impuestos con
-              confianza.
-            </p>
-          </Reveal>
-
-          <div className="notch relative aspect-[9/16] overflow-hidden border border-cream-line">
-            <video
-              controls
-              preload="none"
-              poster="/work/el-contador-del-sombrero/video/seminar-clip-poster.jpg"
-              className="absolute inset-0 h-full w-full object-cover"
-            >
-              <source
-                src="/work/el-contador-del-sombrero/video/seminar-clip.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-ink py-20 sm:py-28">
+      <section className="border-t border-forest-line/60 bg-ink py-20 sm:py-28">
         <div className="container-page">
           <Eyebrow>On-site content</Eyebrow>
           <h2 className="font-display text-balance mt-3 max-w-2xl text-4xl leading-[0.95] text-on-dark sm:text-5xl">
