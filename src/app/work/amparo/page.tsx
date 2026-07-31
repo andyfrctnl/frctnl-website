@@ -64,6 +64,11 @@ const videos = [
     poster: "/work/amparo/video/latinxs-in-roofing-poster.jpg",
     title: "Latinxs in Roofing: Empoderando a la Comunidad Latina",
   },
+  {
+    src: "/work/amparo/video/bad-bunny-marca-personal.mp4",
+    poster: "/work/amparo/video/bad-bunny-marca-personal-poster.jpg",
+    title: "Lo que Bad Bunny Puede Enseñarle a un Roofer sobre Hacer Millones",
+  },
 ];
 
 export default function AmparoCaseStudyPage() {
