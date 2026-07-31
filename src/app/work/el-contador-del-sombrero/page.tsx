@@ -30,6 +30,11 @@ const scopeItems = [
     description:
       "Sign-up and check-in handled for tax strategy seminars as Marcos tours cities across the country.",
   },
+  {
+    name: "Social Media",
+    description:
+      "Full account management across Instagram, Facebook, TikTok, and YouTube — posting, community, and growth.",
+  },
 ];
 
 const gallery = [
