@@ -130,34 +130,6 @@ export default function AmparoCaseStudyPage() {
         </div>
       </section>
 
-      <section className="bg-paper py-20 sm:py-28">
-        <div className="container-page grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:items-center">
-          <Reveal>
-            <Eyebrow tone="light">Meet Amparo</Eyebrow>
-            <h2 className="font-display text-balance mt-3 text-4xl leading-[0.95] text-on-light sm:text-5xl">
-              De mamá a emprendedora.
-            </h2>
-            <p className="mt-6 max-w-md text-base leading-relaxed text-on-light-muted">
-              From a career switch into construction to building her own
-              roofing company, Amparo&apos;s story is the foundation both
-              brands are built on — content that turns her real experience
-              into guidance other entrepreneurs and contractors can use.
-            </p>
-          </Reveal>
-
-          <div className="notch relative aspect-[9/16] overflow-hidden border border-cream-line">
-            <video
-              controls
-              preload="none"
-              poster="/work/amparo/video/bio-story-poster.jpg"
-              className="absolute inset-0 h-full w-full object-cover"
-            >
-              <source src="/work/amparo/video/bio-story.mp4" type="video/mp4" />
-            </video>
-          </div>
-        </div>
-      </section>
-
       <section className="border-t border-forest-line/60 bg-ink py-20 sm:py-28">
         <div className="container-page">
           <Eyebrow>On-site content</Eyebrow>
