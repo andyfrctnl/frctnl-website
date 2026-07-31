@@ -45,9 +45,9 @@ const gallery = [
 
 const videos = [
   {
-    src: "/work/amparo/video/delegar-es-clave.mp4",
-    poster: "/work/amparo/video/delegar-es-clave-poster.jpg",
-    title: "Delegar es Clave: Domina tu Negocio y Gana Tiempo",
+    src: "/work/amparo/video/bad-bunny-marca-personal.mp4",
+    poster: "/work/amparo/video/bad-bunny-marca-personal-poster.jpg",
+    title: "Lo que Bad Bunny Puede Enseñarle a un Roofer sobre Hacer Millones",
   },
   {
     src: "/work/amparo/video/diferenciate-triplica-ingresos.mp4",
@@ -55,19 +55,19 @@ const videos = [
     title: "Diferénciate y Triplica tus Ingresos en tu Negocio",
   },
   {
-    src: "/work/amparo/video/rcv-vs-acv.mp4",
-    poster: "/work/amparo/video/rcv-vs-acv-poster.jpg",
-    title: "RCV vs. ACV: Roofing Clientes Beneficios Secretos Revelados",
-  },
-  {
     src: "/work/amparo/video/latinxs-in-roofing.mp4",
     poster: "/work/amparo/video/latinxs-in-roofing-poster.jpg",
     title: "Latinxs in Roofing: Empoderando a la Comunidad Latina",
   },
   {
-    src: "/work/amparo/video/bad-bunny-marca-personal.mp4",
-    poster: "/work/amparo/video/bad-bunny-marca-personal-poster.jpg",
-    title: "Lo que Bad Bunny Puede Enseñarle a un Roofer sobre Hacer Millones",
+    src: "/work/amparo/video/rcv-vs-acv.mp4",
+    poster: "/work/amparo/video/rcv-vs-acv-poster.jpg",
+    title: "RCV vs. ACV: Roofing Clientes Beneficios Secretos Revelados",
+  },
+  {
+    src: "/work/amparo/video/delegar-es-clave.mp4",
+    poster: "/work/amparo/video/delegar-es-clave-poster.jpg",
+    title: "Delegar es Clave: Domina tu Negocio y Gana Tiempo",
   },
 ];
 
