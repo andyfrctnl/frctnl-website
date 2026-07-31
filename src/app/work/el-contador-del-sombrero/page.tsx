@@ -39,13 +39,18 @@ const scopeItems = [
 
 const gallery = [
   {
-    src: "/work/el-contador-del-sombrero/dallas-tour-promo.jpg",
-    alt: "El Contador del Sombrero viene a Dallas, TX event promo graphic",
+    src: "/work/el-contador-del-sombrero/phoenix-faq-promo.jpg",
+    alt: "Preguntas Frecuentes para el Evento — Phoenix, AZ promo graphic",
     aspect: "aspect-[4/5]",
   },
   {
-    src: "/work/el-contador-del-sombrero/phoenix-faq-promo.jpg",
-    alt: "Preguntas Frecuentes para el Evento — Phoenix, AZ promo graphic",
+    src: "/work/el-contador-del-sombrero/tour-dates-promo.jpg",
+    alt: "Donde va estar — tour dates for Chicago, El Paso, and Houston",
+    aspect: "aspect-[4/5]",
+  },
+  {
+    src: "/work/el-contador-del-sombrero/houston-summit-promo.jpg",
+    alt: "Cumbre Fiscal para Empresarios Houston event promo graphic",
     aspect: "aspect-[4/5]",
   },
 ];
@@ -137,7 +142,7 @@ export default function ElContadorDelSombreroCaseStudyPage() {
             Announcing the next stop.
           </h2>
 
-          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2">
+          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-3">
             {gallery.map((image) => (
               <StaggerItem key={image.src}>
                 <div
@@ -147,7 +152,7 @@ export default function ElContadorDelSombreroCaseStudyPage() {
                     src={image.src}
                     alt={image.alt}
                     fill
-                    sizes="(min-width: 640px) 50vw, 100vw"
+                    sizes="(min-width: 640px) 33vw, 100vw"
                     className="object-cover"
                   />
                 </div>
