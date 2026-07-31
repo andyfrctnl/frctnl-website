@@ -72,6 +72,22 @@ const videos = [
     poster: "/work/el-contador-del-sombrero/video/deduce-gastos-poster.jpg",
     title: "Deduce tus Gastos: Protege tu Negocio de Auditorías",
   },
+  {
+    src: "/work/el-contador-del-sombrero/video/llc-vs-scorp.mp4",
+    poster: "/work/el-contador-del-sombrero/video/llc-vs-scorp-poster.jpg",
+    title: "LLC vs S Corp: Ahorra Impuestos Inteligente",
+  },
+  {
+    src: "/work/el-contador-del-sombrero/video/evita-auditorias.mp4",
+    poster: "/work/el-contador-del-sombrero/video/evita-auditorias-poster.jpg",
+    title: "Evita Auditorías del IRS: La Estructura Empresarial Secreta",
+  },
+  {
+    src: "/work/el-contador-del-sombrero/video/inversion-inmobiliaria.mp4",
+    poster:
+      "/work/el-contador-del-sombrero/video/inversion-inmobiliaria-poster.jpg",
+    title: "Inversión Inmobiliaria: Ventajas Fiscales y Estrategias Inteligentes",
+  },
 ];
 
 export default function ElContadorDelSombreroCaseStudyPage() {
