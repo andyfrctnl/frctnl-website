@@ -39,11 +39,6 @@ const scopeItems = [
 
 const gallery = [
   {
-    src: "/work/el-contador-del-sombrero/whiteboard-session.jpg",
-    alt: "Marcos Ramírez teaching a live tax strategy seminar at a whiteboard",
-    aspect: "aspect-[3/2]",
-  },
-  {
     src: "/work/el-contador-del-sombrero/dallas-tour-promo.jpg",
     alt: "El Contador del Sombrero viene a Dallas, TX event promo graphic",
     aspect: "aspect-[4/5]",
@@ -137,12 +132,12 @@ export default function ElContadorDelSombreroCaseStudyPage() {
 
       <section className="border-t border-forest-line/60 bg-ink py-20 sm:py-28">
         <div className="container-page">
-          <Eyebrow>On-site content</Eyebrow>
+          <Eyebrow>Event promo</Eyebrow>
           <h2 className="font-display text-balance mt-3 max-w-2xl text-4xl leading-[0.95] text-on-dark sm:text-5xl">
-            From the seminar floor to the feed.
+            Announcing the next stop.
           </h2>
 
-          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-3">
+          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2">
             {gallery.map((image) => (
               <StaggerItem key={image.src}>
                 <div
@@ -152,7 +147,7 @@ export default function ElContadorDelSombreroCaseStudyPage() {
                     src={image.src}
                     alt={image.alt}
                     fill
-                    sizes="(min-width: 640px) 33vw, 100vw"
+                    sizes="(min-width: 640px) 50vw, 100vw"
                     className="object-cover"
                   />
                 </div>
