@@ -72,7 +72,7 @@ export default function ElContadorDelSombreroCaseStudyPage() {
           <div className="notch relative aspect-[3/2] overflow-hidden border border-forest-line">
             <Image
               src="/work/el-contador-del-sombrero/hero.jpg"
-              alt="Marcos Ramírez, El Contador del Sombrero, presenting at a live tax strategy seminar"
+              alt="El Contador del Sombrero logo"
               fill
               priority
               sizes="(min-width: 1024px) 40vw, 100vw"

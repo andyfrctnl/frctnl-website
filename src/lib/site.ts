@@ -198,7 +198,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Elite tax strategy for the Latino business community, led by Marcos Ramírez. FRCTNL runs the email marketing and content that turns live seminars and complex fiscal engineering into a brand business owners trust — and recognize.",
     result: "Trusted tax strategist for entrepreneurs & investors nationwide",
-    image: "/work/el-contador-del-sombrero/hero.jpg",
+    image: "/work/el-contador-del-sombrero/logo-card.jpg",
     href: "/work/el-contador-del-sombrero",
   },
 ];
