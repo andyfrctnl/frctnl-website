@@ -191,4 +191,14 @@ export const caseStudies: CaseStudy[] = [
     image: "/work/mazo-vibe/hero.jpg",
     href: "/work/mazo-vibe",
   },
+  {
+    slug: "el-contador-del-sombrero",
+    client: "El Contador del Sombrero",
+    category: "Email Marketing + Content + Branding",
+    summary:
+      "Elite tax strategy for the Latino business community, led by Marcos Ramírez. FRCTNL runs the email marketing and content that turns live seminars and complex fiscal engineering into a brand business owners trust — and recognize.",
+    result: "Trusted tax strategist for entrepreneurs & investors nationwide",
+    image: "/work/el-contador-del-sombrero/hero.jpg",
+    href: "/work/el-contador-del-sombrero",
+  },
 ];
