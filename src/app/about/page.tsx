@@ -55,7 +55,7 @@ const team: TeamMember[] = [
     image: "/team/andrea-moran.jpg",
   },
   {
-    name: "Brianna Rivas",
+    name: "Brianna Martinez",
     role: "Social Media Coordinator",
     image: "/team/brianna-rivas.jpg",
   },
