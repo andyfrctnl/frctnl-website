@@ -45,6 +45,11 @@ const team: TeamMember[] = [
     image: "/team/john-rivas.jpg",
   },
   {
+    name: "Roland Rios",
+    role: "Business Strategy Partner",
+    image: "/team/roland-rios.jpg",
+  },
+  {
     name: "Alfredo Garcia",
     role: "Creative Director",
     image: "/team/alfredo-garcia.jpg",
@@ -126,7 +131,7 @@ export default function AboutPage() {
             />
           </div>
 
-          <StaggerGroup className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+          <StaggerGroup className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {team.map((member) => (
               <StaggerItem key={member.name ?? member.role}>
                 <div className="notch border border-forest-line bg-forest-soft/30 p-6">
