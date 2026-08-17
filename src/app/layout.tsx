@@ -38,6 +38,9 @@ export const metadata: Metadata = {
     title: `${site.name} | Marketing Agency in El Paso, TX`,
     description: site.description,
   },
+  verification: {
+    google: "SbQ4MOsB4P31HafDg7O_UoJGFbrxQmacnjIah7ZocXE",
+  },
 };
 
 export const viewport = {
