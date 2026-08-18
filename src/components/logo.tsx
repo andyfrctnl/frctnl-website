@@ -1,18 +1,21 @@
+import Image from "next/image";
 import Link from "next/link";
 
-/**
- * Text-based recreation of the FRCTNL mark (condensed, notched-corner wordmark).
- * The client's source logo file is a pasted image we don't have as an asset —
- * swap this for the real SVG/PNG in public/ once it's exported.
- */
 export function Wordmark({ className = "" }: { className?: string }) {
   return (
     <Link
       href="/"
-      className={`font-display inline-flex items-center text-2xl tracking-wide text-on-dark ${className}`}
+      className={`inline-flex items-center ${className}`}
       aria-label="FRCTNL — home"
     >
-      FRCTNL
+      <Image
+        src="/brand/frctnl-mark.png"
+        alt="FRCTNL"
+        width={140}
+        height={140}
+        priority
+        className="h-9 w-9 sm:h-10 sm:w-10"
+      />
     </Link>
   );
 }
