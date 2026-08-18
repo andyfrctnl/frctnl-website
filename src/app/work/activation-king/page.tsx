@@ -185,7 +185,7 @@ export default function ActivationKingCaseStudyPage() {
               <StaggerItem key={image.src}>
                 <div
                   className={`notch overflow-hidden border border-forest-line ${
-                    image.small ? "mx-auto max-w-[60%]" : ""
+                    image.small ? "mx-auto max-w-[92%]" : ""
                   }`}
                 >
                   <Image
