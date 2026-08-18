@@ -211,4 +211,14 @@ export const caseStudies: CaseStudy[] = [
     image: "/work/amparo/headshot-card.jpg",
     href: "/work/amparo",
   },
+  {
+    slug: "activation-king",
+    client: "Activation King",
+    category: "Content Creation + Social Media",
+    summary:
+      "Marco Vallejo Jr. — the Activation King — is a sponsorships and partnerships expert building his personal brand. FRCTNL runs the social media and content creation that turns real activations into a following, across Instagram, LinkedIn, Facebook, TikTok, and YouTube.",
+    result: "Sponsorship expertise, built into a personal brand",
+    image: "/work/activation-king/card.jpg",
+    href: "/work/activation-king",
+  },
 ];
