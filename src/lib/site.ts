@@ -168,7 +168,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Ongoing full-service partner for CFC's live MMA events at the El Paso County Coliseum — fight card design, social content, email campaigns, influencer partnerships, and on-site event coordination.",
     result: "7 live events and counting",
-    image: "/work/cfc/birchak-vs-roa-hero.jpg",
+    image: "/work/cfc/logo-card.jpg",
     href: "/work/cfc",
   },
   {
