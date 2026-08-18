@@ -32,6 +32,29 @@ const scopeItems = [
   },
 ];
 
+const gallery = [
+  {
+    src: "/work/activation-king/golf-1.jpg",
+    alt: "Marco Vallejo Jr. at a CFC golf sponsorship event",
+    aspect: "aspect-[2/3]",
+  },
+  {
+    src: "/work/activation-king/golf-2.jpg",
+    alt: "Marco Vallejo Jr. at the CFC golf tournament clubhouse",
+    aspect: "aspect-[2/3]",
+  },
+  {
+    src: "/work/activation-king/5k-ambassadors.jpg",
+    alt: "Marco Vallejo Jr. with the El Paso Chamber Jr. Leadership 5K ambassador team",
+    aspect: "aspect-[3/2]",
+  },
+  {
+    src: "/work/activation-king/speaking-rock-booth.jpg",
+    alt: "Marco Vallejo Jr. running the Speaking Rock sponsor booth",
+    aspect: "aspect-[3/2]",
+  },
+];
+
 const videos = [
   {
     src: "/work/activation-king/video/sponsorship-advice.mp4",
@@ -101,6 +124,33 @@ export default function ActivationKingCaseStudyPage() {
                   <p className="mt-2 text-sm leading-relaxed text-on-dark-muted">
                     {item.description}
                   </p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
+        </div>
+      </section>
+
+      <section className="border-t border-forest-line/60 bg-ink py-20 sm:py-28">
+        <div className="container-page">
+          <Eyebrow>On-site content</Eyebrow>
+          <h2 className="font-display text-balance mt-3 max-w-2xl text-4xl leading-[0.95] text-on-dark sm:text-5xl">
+            Every sponsorship starts with showing up.
+          </h2>
+
+          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2">
+            {gallery.map((image) => (
+              <StaggerItem key={image.src}>
+                <div
+                  className={`notch relative overflow-hidden border border-forest-line ${image.aspect}`}
+                >
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    sizes="(min-width: 640px) 50vw, 100vw"
+                    className="object-cover"
+                  />
                 </div>
               </StaggerItem>
             ))}
