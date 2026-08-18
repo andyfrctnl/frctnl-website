@@ -48,6 +48,13 @@ const gallery = [
     small: true,
   },
   {
+    src: "/work/activation-king/speaking-rock-2.jpg",
+    alt: "Marco Vallejo Jr. at the Speaking Rock sponsor booth",
+    width: 1066,
+    height: 1600,
+    small: true,
+  },
+  {
     src: "/work/activation-king/5k-ambassadors.jpg",
     alt: "Marco Vallejo Jr. with the El Paso Chamber Jr. Leadership 5K ambassador team",
     width: 1600,
@@ -173,7 +180,7 @@ export default function ActivationKingCaseStudyPage() {
             Every sponsorship starts with showing up.
           </h2>
 
-          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2">
+          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-3">
             {gallery.map((image) => (
               <StaggerItem key={image.src}>
                 <div
