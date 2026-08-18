@@ -178,7 +178,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "El Paso's biggest World Cup watch party — a 3-day flagship event with a 30x16 screen, a mechanical bull, giant foosball, food vendors, and a full bar, backed by a season-long bilingual content campaign and 8 local sponsor partnerships.",
     result: "3-day World Cup finale · 8 sponsor partners",
-    image: "/work/futbol-fiesta/hero.jpg",
+    image: "/work/futbol-fiesta/logo-card.jpg",
     href: "/work/futbol-fiesta",
   },
   {
