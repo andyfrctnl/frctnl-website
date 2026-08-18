@@ -181,24 +181,41 @@ export default function ActivationKingCaseStudyPage() {
           </h2>
 
           <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-3">
-            {gallery.map((image) => (
-              <StaggerItem key={image.src}>
-                <div
-                  className={`notch overflow-hidden border border-forest-line ${
-                    image.small ? "mx-auto max-w-[92%]" : ""
-                  }`}
-                >
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    width={image.width}
-                    height={image.height}
-                    sizes="(min-width: 640px) 30vw, 60vw"
-                    className="h-auto w-full"
-                  />
-                </div>
-              </StaggerItem>
-            ))}
+            {gallery
+              .filter((image) => image.small)
+              .map((image) => (
+                <StaggerItem key={image.src}>
+                  <div className="notch mx-auto max-w-[92%] overflow-hidden border border-forest-line">
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={image.width}
+                      height={image.height}
+                      sizes="(min-width: 640px) 30vw, 60vw"
+                      className="h-auto w-full"
+                    />
+                  </div>
+                </StaggerItem>
+              ))}
+          </StaggerGroup>
+
+          <StaggerGroup className="mt-5 grid gap-5 sm:grid-cols-2">
+            {gallery
+              .filter((image) => !image.small)
+              .map((image) => (
+                <StaggerItem key={image.src}>
+                  <div className="notch overflow-hidden border border-forest-line">
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={image.width}
+                      height={image.height}
+                      sizes="(min-width: 640px) 50vw, 100vw"
+                      className="h-auto w-full"
+                    />
+                  </div>
+                </StaggerItem>
+              ))}
           </StaggerGroup>
         </div>
       </section>
