@@ -36,18 +36,26 @@ const gallery = [
   {
     src: "/work/activation-king/golf-1.jpg",
     alt: "Marco Vallejo Jr. at a CFC golf sponsorship event",
+    width: 1066,
+    height: 1600,
   },
   {
     src: "/work/activation-king/golf-2.jpg",
     alt: "Marco Vallejo Jr. at the CFC golf tournament clubhouse",
+    width: 1066,
+    height: 1600,
   },
   {
     src: "/work/activation-king/5k-ambassadors.jpg",
     alt: "Marco Vallejo Jr. with the El Paso Chamber Jr. Leadership 5K ambassador team",
+    width: 1600,
+    height: 1066,
   },
   {
     src: "/work/activation-king/speaking-rock-booth.jpg",
     alt: "Marco Vallejo Jr. running the Speaking Rock sponsor booth",
+    width: 1600,
+    height: 1066,
   },
 ];
 
@@ -166,13 +174,14 @@ export default function ActivationKingCaseStudyPage() {
           <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2">
             {gallery.map((image) => (
               <StaggerItem key={image.src}>
-                <div className="notch relative aspect-[4/5] overflow-hidden border border-forest-line">
+                <div className="notch overflow-hidden border border-forest-line">
                   <Image
                     src={image.src}
                     alt={image.alt}
-                    fill
+                    width={image.width}
+                    height={image.height}
                     sizes="(min-width: 640px) 50vw, 100vw"
-                    className="object-cover"
+                    className="h-auto w-full"
                   />
                 </div>
               </StaggerItem>
