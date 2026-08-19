@@ -7,8 +7,8 @@ import { ButtonLink, SectionHeading } from "@/components/ui";
 import { caseStudies, process, services, testimonial } from "@/lib/site";
 
 const featuredSlugs = ["cfc", "el-contador-del-sombrero", "amparo"];
-const featuredCaseStudies = caseStudies.filter((project) =>
-  featuredSlugs.includes(project.slug)
+const featuredCaseStudies = featuredSlugs.map(
+  (slug) => caseStudies.find((project) => project.slug === slug)!
 );
 
 export default function Home() {

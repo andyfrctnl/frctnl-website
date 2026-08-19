@@ -172,24 +172,14 @@ export const caseStudies: CaseStudy[] = [
     href: "/work/cfc",
   },
   {
-    slug: "futbol-fiesta",
-    client: "Futbol Fiesta",
-    category: "Events + Branding + Content + Social",
+    slug: "amparo",
+    client: "Amparo Sancen",
+    category: "Content Creation + Social Media",
     summary:
-      "El Paso's biggest World Cup watch party — a 3-day flagship event with a 30x16 screen, a mechanical bull, giant foosball, food vendors, and a full bar, backed by a season-long bilingual content campaign and 8 local sponsor partnerships.",
-    result: "3-day World Cup finale · 8 sponsor partners",
-    image: "/work/futbol-fiesta/logo-card.jpg",
-    href: "/work/futbol-fiesta",
-  },
-  {
-    slug: "mazo-vibe",
-    client: "Mazo Vibe",
-    category: "Branding + Content + Social Media",
-    summary:
-      "El Paso DJ duo playing everywhere from Morning Brew to CFC and Futbol Fiesta, with support sets for Avicii, Afrojack, Steve Aoki, Morgan Page, Laidback Luke, and Galantis — branded, photographed, and kept posting by FRCTNL.",
-    result: "Support sets for Avicii, Afrojack, Steve Aoki & more",
-    image: "/work/mazo-vibe/hero.jpg",
-    href: "/work/mazo-vibe",
+      "Roofing contractor and entrepreneur with 18 years in the industry. FRCTNL runs content and social media across two brands — Amparo Negocios for business owners and Amparo en Roofing for contractors — on Instagram, Facebook, YouTube, TikTok, and LinkedIn.",
+    result: "Two brands, five platforms, one content engine",
+    image: "/work/amparo/headshot-card.jpg",
+    href: "/work/amparo",
   },
   {
     slug: "el-contador-del-sombrero",
@@ -202,14 +192,24 @@ export const caseStudies: CaseStudy[] = [
     href: "/work/el-contador-del-sombrero",
   },
   {
-    slug: "amparo",
-    client: "Amparo Sancen",
-    category: "Content Creation + Social Media",
+    slug: "mazo-vibe",
+    client: "Mazo Vibe",
+    category: "Branding + Content + Social Media",
     summary:
-      "Roofing contractor and entrepreneur with 18 years in the industry. FRCTNL runs content and social media across two brands — Amparo Negocios for business owners and Amparo en Roofing for contractors — on Instagram, Facebook, YouTube, TikTok, and LinkedIn.",
-    result: "Two brands, five platforms, one content engine",
-    image: "/work/amparo/headshot-card.jpg",
-    href: "/work/amparo",
+      "El Paso DJ duo playing everywhere from Morning Brew to CFC and Futbol Fiesta, with support sets for Avicii, Afrojack, Steve Aoki, Morgan Page, Laidback Luke, and Galantis — branded, photographed, and kept posting by FRCTNL.",
+    result: "Support sets for Avicii, Afrojack, Steve Aoki & more",
+    image: "/work/mazo-vibe/hero.jpg",
+    href: "/work/mazo-vibe",
+  },
+  {
+    slug: "futbol-fiesta",
+    client: "Futbol Fiesta",
+    category: "Events + Branding + Content + Social",
+    summary:
+      "El Paso's biggest World Cup watch party — a 3-day flagship event with a 30x16 screen, a mechanical bull, giant foosball, food vendors, and a full bar, backed by a season-long bilingual content campaign and 8 local sponsor partnerships.",
+    result: "3-day World Cup finale · 8 sponsor partners",
+    image: "/work/futbol-fiesta/logo-card.jpg",
+    href: "/work/futbol-fiesta",
   },
   {
     slug: "activation-king",
