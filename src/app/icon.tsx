@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
-export const size = { width: 32, height: 32 };
+export const size = { width: 64, height: 64 };
 export const contentType = "image/png";
 
 export default async function Icon() {
@@ -23,7 +23,7 @@ export default async function Icon() {
           background: "#0b0d0c",
         }}
       >
-        <img src={logoSrc} width={32} height={32} alt="" />
+        <img src={logoSrc} width={64} height={64} alt="" />
       </div>
     ),
     { ...size }
