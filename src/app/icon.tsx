@@ -23,7 +23,7 @@ export default async function Icon() {
           background: "#0b0d0c",
         }}
       >
-        <img src={logoSrc} width={26} height={26} alt="" />
+        <img src={logoSrc} width={32} height={32} alt="" />
       </div>
     ),
     { ...size }
