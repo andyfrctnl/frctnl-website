@@ -14,7 +14,7 @@ export function Wordmark({ className = "" }: { className?: string }) {
         width={140}
         height={140}
         priority
-        className="h-9 w-9 sm:h-10 sm:w-10"
+        className="h-12 w-12 sm:h-14 sm:w-14"
       />
     </Link>
   );
