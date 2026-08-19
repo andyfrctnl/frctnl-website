@@ -46,7 +46,7 @@ const team: TeamMember[] = [
   },
   {
     name: "Roland Rios",
-    role: "Business Strategy Partner",
+    role: "Business Strategy/Partner",
     image: "/team/roland-rios.jpg",
   },
   {
